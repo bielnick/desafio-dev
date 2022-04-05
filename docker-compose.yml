@@ -1,0 +1,13 @@
+version: '3'
+services:
+  node_server:
+    image: node-ts
+    container_name: "service_node"
+    ports: 
+      - "8080:8080"
+  client:
+    image: client-ts
+    container_name: "service_client"
+    ports: 
+      - "8081:8081"
+

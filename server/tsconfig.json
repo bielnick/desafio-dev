@@ -1,7 +1,8 @@
 {
     //esModuleInterop
-
-    "presets": ["@babel/preset-typescript"],
+    "presets": [
+        "@babel/preset-typescript"
+    ],
     "compilerOptions": {
         "target": "es5",
         "esModuleInterop": true,
@@ -17,7 +18,7 @@
             "es2015",
             "dom"
         ],
-        "outDir": "./dist",
+        "outDir": "server/dist",
         "rootDir": "./src",
         "baseUrl": "./src",
         "paths": {
