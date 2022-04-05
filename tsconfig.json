@@ -1,0 +1,32 @@
+{
+    //esModuleInterop
+
+    "presets": ["@babel/preset-typescript"],
+    "compilerOptions": {
+        "target": "es5",
+        "esModuleInterop": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "declaration": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "removeComments": false,
+        "noImplicitAny": true,
+        "lib": [
+            "es2015",
+            "dom"
+        ],
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "baseUrl": "./src",
+        "paths": {
+            "*": [
+                "node_modules/*"
+            ]
+        }
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
