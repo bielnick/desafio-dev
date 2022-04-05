@@ -1,0 +1,22 @@
+{
+  "name": "desafio-dev",
+  "version": "1.0.0",
+  "description": "Por favor leiam este documento do começo ao fim, com muita atenção.\r O intuito deste teste é avaliar seus conhecimentos técnicos em programação.\r O teste consiste em parsear [este arquivo de texto(CNAB)](https://github.com/ByCodersTec/desafio-ruby-on-rails/blob/master/CNAB.txt) e salvar suas informações(transações financeiras) em uma base de dados a critério do candidato.\r Este desafio deve ser feito por você em sua casa. Gaste o tempo que você quiser, porém normalmente você não deve precisar de mais do que algumas horas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bielnick/desafio-dev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bielnick/desafio-dev/issues"
+  },
+  "homepage": "https://github.com/bielnick/desafio-dev#readme",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
